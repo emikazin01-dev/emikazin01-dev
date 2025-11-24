@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Ranking de Vendas</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h1 class="titulo-clean">RANKING DE VENDAS</h1>
+
+<div id="podio">
+  <div id="segundo" class="podio-lugar">
+      <span class="colocacao">2º</span>
+      <img src="" alt="">
+      <div class="base podium-second"></div>
+      <h3></h3>
+      <p></p>
+  </div>
+  <div id="primeiro" class="podio-lugar destaque">
+      <span class="colocacao">1º</span>
+      <img src="" alt="">
+      <div class="base podium-first"></div>
+      <h3></h3>
+      <p></p>
+  </div>
+  <div id="terceiro" class="podio-lugar">
+      <span class="colocacao">3º</span>
+      <img src="" alt="">
+      <div class="base podium-third"></div>
+      <h3></h3>
+      <p></p>
+  </div>
+</div>
+
+<h2>Lista Completa</h2>
+<div id="listaVendedores"></div>
+
+<div class="form-container">
+    <h2>Adicionar Vendedor</h2>
+    <input id="nome" type="text" placeholder="Nome do vendedor">
+    <input id="foto" type="file" accept="image/*">
+    <button onclick="addVendedor()">Adicionar</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
